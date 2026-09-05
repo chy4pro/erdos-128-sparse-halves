@@ -1,4 +1,6 @@
-# Erdős #128 (sparse halves in triangle-free graphs): exact β for the known triangle-free strongly regular graphs
+# Erdős #128 (sparse halves): independent re-verification of the exact β of the known triangle-free strongly regular graphs
+
+**Prior work (please cite this instead):** these values (Clebsch 1/64, Hoffman–Singleton 1/100, Gewirtz 3/224, Higman–Sims 7/400, with explicit bisection certificates) were recorded on the erdosproblems.com #128 discussion thread by Cormundus (comment of 26 Jul 2026, with code at https://github.com/cormundus/erdos-128-census). This repository only re-derives them independently (different construction of the graphs, Hoffman-bound certificates) and adds nothing new.
 
 Remark: in A. Razborov, *More about sparse halves in triangle-free graphs* (arXiv:2104.09406, §4.4), an ad hoc half of the
 Higman–Sims graph with 199 edges is presented, "remarkably suggesting" that β(HS) = 1/50 − 10⁻⁴ might be tight. It is not:
@@ -18,4 +20,4 @@ parameters, exhibits the halves and the ±1 Hoffman eigenvectors, and prints `AL
 
     python3 verify_all.py
 
-Found during an AI-assisted search (Claude, 2026-09-04) and re-verified independently by the maintainer. No claim about the conjecture is made.
+Produced during an AI-assisted search (Claude, 2026-09-04) before the maintainer noticed the earlier thread comment; kept only as an independent check. No claim about the conjecture is made.
