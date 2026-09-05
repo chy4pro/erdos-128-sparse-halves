@@ -13,7 +13,7 @@ The same argument gives β(Clebsch) = 1/64 (a perfect matching), β(Hoffman–Si
 β(Gewirtz) = 3/224 (the sparsest half induces the Coxeter graph). None of these graphs is a counterexample to the
 conjecture (all values are below 1/50); the conjecture itself remains open.
 
-`verify_all.py` (numpy only) builds the graphs from the extended binary Golay code / S(3,6,22), checks the strongly-regular
+`verify_all.py` (Python 3 with numpy and networkx) builds the graphs from the extended binary Golay code / S(3,6,22), checks the strongly-regular
 parameters, exhibits the halves and the ±1 Hoffman eigenvectors, and prints `ALL CHECKS PASSED`:
 
     python3 verify_all.py
