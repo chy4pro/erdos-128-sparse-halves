@@ -2,12 +2,12 @@
 Prints PASS/FAIL for each.  Run time ~1 minute."""
 import sys, itertools, math
 import numpy as np, networkx as nx
-sys.path.insert(0, '/Users/roychen/workspace/claudecode/automath/engine/out/claude_blitz_0905/O6_128/scripts')
+sys.path.insert(0, '$HOME/workspace/claudecode/automath/engine/out/claude_blitz_0905/O6_128/scripts')
 from golay import higman_sims, m22_graph, gewirtz, steiner_3_6_22
 from families import hoffman_singleton, clebsch
 from lib128 import min_half_bruteforce
 
-OUT = '/Users/roychen/workspace/claudecode/automath/engine/out/claude_blitz_0905/O6_128/out/'
+OUT = '$HOME/workspace/claudecode/automath/engine/out/claude_blitz_0905/O6_128/out/'
 ok = True
 def chk(name, cond, detail=''):
     global ok
